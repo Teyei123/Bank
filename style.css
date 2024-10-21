@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .balance {
+    margin-bottom: 20px;
+  }
+  
+  .balance h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+  }
+  
+  .transaction-section {
+    margin-bottom: 20px;
+  }
+  
+  .transaction-section input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    width: 180px;
+  }
+  
+  .transaction-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .transaction-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .transaction-log {
+    margin-top: 30px;
+  }
+  
+  .transaction-log h3 {
+    color: #333;
+  }
+  
+  .transaction-log ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-log li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
